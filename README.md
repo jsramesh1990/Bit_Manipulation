@@ -13,11 +13,11 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 **Bit Manipulator** is an educational tool that teaches bitwise operations through hands-on interaction. It provides a clean interface to set, clear, toggle, and check individual bits in a 32-bit integer.
 
-### ✨ Tiny Example – See It in Action
+###  Tiny Example – See It in Action
 
 ```c
 // Setting a bit at position 3
@@ -42,7 +42,7 @@ Binary: 00000000 00000000 00000000 00001000
 
 ---
 
-## 🎯 Features
+##  Features
 
 | Operation | Description | Example |
 |-----------|-------------|---------|
@@ -54,7 +54,7 @@ Binary: 00000000 00000000 00000000 00001000
 
 ---
 
-## 🔄 Workflow – How the Program Works
+##  Workflow – How the Program Works
 
 ### User Interaction Flow
 
@@ -145,7 +145,7 @@ Return to menu
 
 ---
 
-## 🧱 Project Architecture
+##  Project Architecture
 
 ### Component Diagram
 
@@ -183,7 +183,7 @@ graph TD
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 bit-manipulation/
@@ -205,7 +205,7 @@ bit-manipulation/
 
 ---
 
-## 🔬 Bit Manipulation Explained
+##  Bit Manipulation Explained
 
 ### The Magic Behind Each Operation
 
@@ -242,7 +242,7 @@ return (*num >> pos) & 1;
 
 ---
 
-## 🛠️ Build & Run
+##  Build & Run
 
 ### Prerequisites
 
@@ -293,7 +293,7 @@ gcc test_bit_operations.c bit_operations.c -o test_runner
 
 ---
 
-## 💻 Usage Examples
+##  Usage Examples
 
 ### Example 1: Working with Multiple Bits
 
@@ -357,7 +357,7 @@ clear_bit(&permissions, 2);
 
 ---
 
-## 🧪 Testing Framework
+##  Testing Framework
 
 ### Test Coverage
 
@@ -394,7 +394,7 @@ All tests passed! (6/6)
 
 ---
 
-## 📊 Performance
+##  Performance
 
 | Operation | Time Complexity | Space Complexity |
 |-----------|----------------|------------------|
@@ -408,7 +408,7 @@ All operations are constant time and memory!
 
 ---
 
-## 🔄 Makefile Targets
+##  Makefile Targets
 
 ```makefile
 make           # Build main program and tests
@@ -420,7 +420,7 @@ make help      # Display available commands
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 After exploring this project, you will understand:
 
@@ -435,7 +435,7 @@ After exploring this project, you will understand:
 
 ---
 
-## 🚀 Real-World Applications
+##  Real-World Applications
 
 Bit manipulation is critical in:
 
@@ -451,7 +451,7 @@ Bit manipulation is critical in:
 
 ---
 
-## 🐛 Debugging Tips
+##  Debugging Tips
 
 ```bash
 # Enable debug symbols
@@ -471,7 +471,7 @@ valgrind --leak-check=full ./bit_manipulator
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Here's how:
 
@@ -497,13 +497,13 @@ We welcome contributions! Here's how:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Inspired by classic embedded systems programming
 - Bit twiddling hacks from the C community
@@ -511,7 +511,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ---
 
-## 📞 Support & Contact
+##  Support & Contact
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/bit-manipulation/issues)
 - **Documentation**: See inline comments in source code
@@ -519,7 +519,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ---
 
-## ⭐ Show Your Support
+##  Show Your Support
 
 If this project helped you understand bit manipulation:
 
@@ -533,7 +533,7 @@ make run
 
 ---
 
-## 📈 Project Status
+##  Project Status
 
 - ✅ Core operations implemented
 - ✅ Interactive menu working
